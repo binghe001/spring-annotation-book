@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>spring-annotation-chapter-01</module>
+        <module>spring-annotation-chapter-02</module>
     </modules>
 
     <properties>
