@@ -15,8 +15,6 @@
  */
 package io.binghe.spring.annotation.chapter02.componentscan.filter;
 
-import org.springframework.core.io.Resource;
-import org.springframework.core.type.AnnotationMetadata;
 import org.springframework.core.type.ClassMetadata;
 import org.springframework.core.type.classreading.MetadataReader;
 import org.springframework.core.type.classreading.MetadataReaderFactory;
