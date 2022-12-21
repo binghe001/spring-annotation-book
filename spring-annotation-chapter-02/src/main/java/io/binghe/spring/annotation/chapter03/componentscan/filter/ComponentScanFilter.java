@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package io.binghe.spring.annotation.chapter02.componentscan.filter;
+package io.binghe.spring.annotation.chapter03.componentscan.filter;
 
 import org.springframework.core.type.ClassMetadata;
 import org.springframework.core.type.classreading.MetadataReader;

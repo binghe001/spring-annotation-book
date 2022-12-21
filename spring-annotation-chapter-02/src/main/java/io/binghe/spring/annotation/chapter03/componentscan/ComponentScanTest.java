@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package io.binghe.spring.annotation.chapter02.componentscan;
+package io.binghe.spring.annotation.chapter03.componentscan;
 
-import io.binghe.spring.annotation.chapter02.componentscan.config.ComponentScanConfig;
+import io.binghe.spring.annotation.chapter03.componentscan.config.ComponentScanConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import java.util.Arrays;

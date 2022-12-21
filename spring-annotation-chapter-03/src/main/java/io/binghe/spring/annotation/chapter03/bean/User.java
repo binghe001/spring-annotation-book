@@ -13,22 +13,29 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package io.binghe.spring.annotation.chapter02.componentscan.config;
+package io.binghe.spring.annotation.chapter03.bean;
 
-import io.binghe.spring.annotation.chapter02.componentscan.filter.ComponentScanFilter;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.ComponentScan.Filter;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.FilterType;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * @author binghe(公众号 : 冰河技术)
  * @version 1.0.0
- * @description
+ * @description 注入到IOC容器中的类
  */
-@Configuration
-@ComponentScan(value = "io.binghe.spring.annotation.chapter02", includeFilters = {
-        @Filter(type = FilterType.CUSTOM, classes = {ComponentScanFilter.class})
-}, useDefaultFilters = false)
-public class ComponentScanConfig {
+public class User {
+
+    private final Logger logger = LoggerFactory.getLogger(User.class);
+
+    public User(){
+        logger.info("执行构造方法...");
+    }
+
+    public void init(){
+        logger.info("执行初始化方法...");
+    }
+
+    public void destroy(){
+        logger.info("执行销毁方法...");
+    }
 }

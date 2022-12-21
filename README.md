@@ -2,7 +2,8 @@
 
 ## 专栏文章
 * [《Spring核心技术》开篇：我要带你一步步调试Spring6.0源码啦！](https://mp.weixin.qq.com/s/0HVmss9eqdI1-TpU1tFsRw)
-* [《Spring核心技术》第1章：深入解析@Configuration注解](https://mp.weixin.qq.com/s/OAq0vmYC49ErlV69LBa9mA)
+* [《Spring核心技术》第1章：深读解析@Configuration注解](https://mp.weixin.qq.com/s/OAq0vmYC49ErlV69LBa9mA)
+* [《Spring核心技术》第2章：深度解析@ComponentScan注解](https://mp.weixin.qq.com/s/yr1_BQKD2eRvv0OBayHz-g)
 
 
 ### 我的新书
