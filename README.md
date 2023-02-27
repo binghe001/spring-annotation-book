@@ -42,6 +42,7 @@
 * [《Spring核心技术》第2章：深度解析@ComponentScan注解](https://mp.weixin.qq.com/s/yr1_BQKD2eRvv0OBayHz-g)
 * [《Spring核心技术》第3章：深度解析@Bean注解](https://mp.weixin.qq.com/s/geOOpL_1dVQShkKabylI7Q)
 * [《Spring核心技术》第4章：深度解析从IOC容器中获取Bean的过程](https://mp.weixin.qq.com/s/T_UgoBe9gepQhp9e20pQhw)
+* [《Spring核心技术》第5章：深度解析@Import注解](https://mp.weixin.qq.com/s/zj1ObGlKJGiuRAv5ap6GHw)
 
 ### 我的新书
 

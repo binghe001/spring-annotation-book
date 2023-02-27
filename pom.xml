@@ -15,6 +15,7 @@
         <module>spring-annotation-chapter-04</module>
         <module>spring-annotation-chapter-05</module>
         <module>spring-annotation-chapter-06</module>
+        <module>spring-annotation-chapter-07</module>
     </modules>
 
     <properties>
