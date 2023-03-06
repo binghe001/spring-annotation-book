@@ -20,6 +20,7 @@
         <module>spring-annotation-chapter-09</module>
         <module>spring-annotation-chapter-10</module>
         <module>spring-annotation-chapter-11</module>
+        <module>spring-annotation-chapter-12</module>
     </modules>
 
     <properties>
