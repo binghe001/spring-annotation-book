@@ -16,8 +16,6 @@
 package io.binghe.spring.annotation.chapter13.dao.impl;
 
 import io.binghe.spring.annotation.chapter13.dao.QualifierDao;
-import org.springframework.context.annotation.Primary;
-import org.springframework.core.OrderComparator;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -27,7 +25,6 @@ import org.springframework.stereotype.Repository;
  * @github https://github.com/binghe001
  * @copyright 公众号: 冰河技术
  */
-@Primary
 @Repository(value = "qualifierDao1")
 public class QualifierDao1 implements QualifierDao {
 

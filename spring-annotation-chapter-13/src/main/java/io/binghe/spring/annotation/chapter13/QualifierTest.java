@@ -16,7 +16,6 @@
 package io.binghe.spring.annotation.chapter13;
 
 import io.binghe.spring.annotation.chapter13.config.QualifierConfig;
-import io.binghe.spring.annotation.chapter13.dao.QualifierDao;
 import io.binghe.spring.annotation.chapter13.service.QualifierService;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -31,8 +30,6 @@ public class QualifierTest {
 
     public static void main(String[] args) {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(QualifierConfig.class);
-        QualifierDao qualifierDao = context.getBean(QualifierDao.class);
-        System.out.println("qualifierDao===>>> " + qualifierDao);
         QualifierService qualifierService = context.getBean(QualifierService.class);
         System.out.println("qualifierService===>>> " + qualifierService);
 
