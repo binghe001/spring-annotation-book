@@ -55,6 +55,10 @@
 * [《Spring核心技术》第10章：深度解析@Component注解（含扩展注解）](https://articles.zsxq.com/id_2svfoc2onw0p.html)
 * [《Spring核心技术》第11章：深度解析@Value注解（含@Autowired和@Inject）](https://articles.zsxq.com/id_1qtfp128b7wc.html)
 * [《Spring核心技术》第12章：深度解析@Autowired注解](https://articles.zsxq.com/id_xodqwm77k51b.html)
+* [《Spring核心技术》第13章：深度解析@Qualifier注解](https://articles.zsxq.com/id_tro8zjto40zn.html)
+* [《Spring核心技术》第14章：深度解析@Resource注解](https://articles.zsxq.com/id_v9wd5237pgu6.html)
+* [《Spring核心技术》第15章：深度解析@Inject注解](https://articles.zsxq.com/id_2lbs516korwe.html)
+* [《Spring核心技术》第16章：深度解析@Primary注解](https://articles.zsxq.com/id_ag4v69xzpla1.html)
 
 ### 我的新书
 
