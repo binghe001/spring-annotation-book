@@ -25,6 +25,7 @@
         <module>spring-annotation-chapter-14</module>
         <module>spring-annotation-chapter-15</module>
         <module>spring-annotation-chapter-16</module>
+        <module>spring-annotation-chapter-17</module>
     </modules>
 
     <properties>
