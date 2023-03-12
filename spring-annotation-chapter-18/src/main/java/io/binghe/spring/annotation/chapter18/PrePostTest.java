@@ -13,22 +13,21 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package io.binghe.spring.annotation.chapter03.config;
+package io.binghe.spring.annotation.chapter18;
 
-import io.binghe.spring.annotation.chapter03.bean.User;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
+import io.binghe.spring.annotation.chapter18.config.PrePostConfig;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
- * @author binghe(公众号 : 冰河技术)
+ * @author binghe(微信 : hacker_binghe)
  * @version 1.0.0
- * @description 配置类
+ * @description @PostConstruct与@PreDestroy的案例测试类
+ * @github https://github.com/binghe001
+ * @copyright 公众号: 冰河技术
  */
-@Configuration
-public class BeanConfig {
-
-    @Bean(initMethod = "init", destroyMethod = "destroy")
-    public User user(){
-        return new User();
+public class PrePostTest {
+    public static void main(String[] args) {
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(PrePostConfig.class);
+        context.close();
     }
 }
