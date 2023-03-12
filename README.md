@@ -2,7 +2,7 @@
 
 ### 我是冰河
 
-- :dog: 互联资深技术专家，数据库技术专家，分布式与微服务架构专家，全网45万+粉互联网技术博主。
+- :dog: 互联资深技术专家，[TVP腾讯云最具价值专家](https://cloud.tencent.com/tvp/member/669)，数据库技术专家，分布式与微服务架构专家，全网45万+粉互联网技术博主。
 - :bus: 作品：[`BingheGuide | 冰河指南`](https://github.com/binghe001/BingheGuide) | [`《深入理解高并发编程：核心原理与案例实战》`](https://github.com/binghe001/mykit-concurrent-principle) | [`《深入理解高并发编程：JDK核心技术》`](https://github.com/binghe001/mykit-concurrent-jdk) | [`数据同步`](https://github.com/binghe001/mykit-data) | [`Spring核心技术`](https://github.com/binghe001/spring-annotation-book) | [`分布式限流`](https://github.com/binghe001/mykit-ratelimiter) | [`分布式锁`](https://github.com/binghe001/mykit-lock) | [`分布式缓存`](https://github.com/binghe001/mykit-cache) | [`异步并行框架`](https://github.com/binghe001/mykit-async) | [`分布式事务`](https://github.com/binghe001/mykit-transaction-message) | [`简易版IM`](https://github.com/binghe001/mykit-chat) | [`微信SDK`](https://github.com/binghe001/mykit-wechat-sdk) | [`延迟队列`](https://github.com/binghe001/mykit-delay) | [`分布式ID`](https://github.com/binghe001/mykit-serial) | [更多搜索...](https://github.com/binghe001?tab=repositories)
 - :seedling: 干货：[公众号『 冰河技术 』](https://img-blog.csdnimg.cn/20210426115714643.jpg)
 - :pencil: 博客：[binghe.gitcode.host](https://binghe.gitcode.host/) - 硬核文章，应有尽有！
@@ -59,6 +59,8 @@
 * [《Spring核心技术》第14章：深度解析@Resource注解](https://articles.zsxq.com/id_v9wd5237pgu6.html)
 * [《Spring核心技术》第15章：深度解析@Inject注解](https://articles.zsxq.com/id_2lbs516korwe.html)
 * [《Spring核心技术》第16章：深度解析@Primary注解](https://articles.zsxq.com/id_ag4v69xzpla1.html)
+* [《Spring核心技术》第17章：深度解析@Scope注解](https://articles.zsxq.com/id_gbhw3a0m659q.html)
+* [《Spring核心技术》第18章：深度解析@PostConstruct注解与@PreDestroy注解](https://articles.zsxq.com/id_q1dtx07qi6tx.html)
 
 ### 我的新书
 
