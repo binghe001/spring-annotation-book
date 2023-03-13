@@ -61,6 +61,7 @@
 * [《Spring核心技术》第16章：深度解析@Primary注解](https://articles.zsxq.com/id_ag4v69xzpla1.html)
 * [《Spring核心技术》第17章：深度解析@Scope注解](https://articles.zsxq.com/id_gbhw3a0m659q.html)
 * [《Spring核心技术》第18章：深度解析@PostConstruct注解与@PreDestroy注解](https://articles.zsxq.com/id_q1dtx07qi6tx.html)
+* [《Spring核心技术》第19章：深度解析@Profile注解](https://articles.zsxq.com/id_eproza82fs1w.html)
 
 ### 我的新书
 
