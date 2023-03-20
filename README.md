@@ -66,6 +66,7 @@
 * [《Spring核心技术》第20章：深度解析循环依赖](https://articles.zsxq.com/id_jjiexxsn8j3f.html)
 * [《Spring核心技术》第21章：深度解析事件监听机制](https://articles.zsxq.com/id_94mft95hpqe5.html)
 * [《Spring核心技术》第22章：AOP切面型注解实战](https://articles.zsxq.com/id_xhaep3mgxbel.html)
+* [《Spring核心技术》第23章：深度解析@EnableAspectJAutoProxy注解](https://articles.zsxq.com/id_khq22od1cfhz.html)
 
 ### 我的新书
 
