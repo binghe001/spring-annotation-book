@@ -54,7 +54,7 @@ public class AspectLog {
     }
 
     @Around("pointCut()")
-    public Object arountLog(ProceedingJoinPoint pjp){
+    public Object aroundLog(ProceedingJoinPoint pjp){
         //返回的结果数据
         Object resultValue = null;
         try{
