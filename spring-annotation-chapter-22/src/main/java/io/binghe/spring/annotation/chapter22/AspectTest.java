@@ -33,5 +33,6 @@ public class AspectTest {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AspectConfig.class);
         AspectService aspectService = context.getBean(AspectService.class);
         aspectService.saveOrUpdateAspectBean(new AspectBean());
+        context.close();
     }
 }
