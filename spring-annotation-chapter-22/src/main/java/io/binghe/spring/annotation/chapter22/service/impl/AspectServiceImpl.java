@@ -30,7 +30,7 @@ import org.springframework.stereotype.Service;
 public class AspectServiceImpl implements AspectService {
     @Override
     public void saveOrUpdateAspectBean(AspectBean aspectBean) {
-        int i = 1 / 0;
+//        int i = 1 / 0;
         System.out.println("保存或者更新AspectBean对象...");
     }
 }
