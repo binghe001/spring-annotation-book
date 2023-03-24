@@ -32,5 +32,6 @@ public class EnableLoadTimeWeavingTest {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(EnableLoadTimeWeavingConfig.class);
         EnableLoadTimeWeavingService enableLoadTimeWeavingService = context.getBean(EnableLoadTimeWeavingService.class);
         enableLoadTimeWeavingService.printEnableLoadTimeWeaving();
+        context.close();
     }
 }

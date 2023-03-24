@@ -71,6 +71,7 @@
 * [《Spring核心技术》第25章：深度解析构建AOP拦截器链的流程](https://articles.zsxq.com/id_1le7i7cflbec.html)
 * [《Spring核心技术》第26章：深度解析调用通知方法的流程](https://articles.zsxq.com/id_twxhnxik8enc.html)
 * [《Spring核心技术》第27章：深度解析@DeclareParents注解](https://articles.zsxq.com/id_rw597583o4jg.html)
+* [《Spring核心技术》第28章：@EnableLoadTimeWeaving注解](https://articles.zsxq.com/id_hsvnjsdjoci8.html)
 
 ### 我的新书
 
