@@ -32,10 +32,11 @@
         <module>spring-annotation-chapter-21</module>
         <module>spring-annotation-chapter-22</module>
         <module>spring-annotation-chapter-27</module>
+        <module>spring-annotation-chapter-28</module>
     </modules>
 
     <properties>
-        <spring.version>6.0.2</spring.version>
+        <spring.version>6.0.4</spring.version>
         <lombok.version>1.18.12</lombok.version>
         <junit.version>4.13</junit.version>
         <javax.version>1</javax.version>
@@ -43,6 +44,7 @@
         <slf4j.version>1.7.21</slf4j.version>
         <common.logging>1.2</common.logging>
         <fastjson.version>1.2.51</fastjson.version>
+        <aspectj.version>1.9.9.1</aspectj.version>
     </properties>
 
     <dependencies>
@@ -60,6 +62,12 @@
 
         <dependency>
             <groupId>org.springframework</groupId>
+            <artifactId>spring-aop</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
             <artifactId>spring-tx</artifactId>
             <version>${spring.version}</version>
         </dependency>
@@ -68,12 +76,6 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
             <version>${spring.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>${lombok.version}</version>
         </dependency>
 
         <dependency>
@@ -115,6 +117,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.11.0</version>
                 <configuration>
                     <source>17</source>
                     <target>17</target>

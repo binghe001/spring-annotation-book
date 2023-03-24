@@ -1,0 +1,14 @@
+<!DOCTYPE aspectj PUBLIC "-//AspectJ//DTD//EN" "https://www.eclipse.org/aspectj/dtd/aspectj.dtd">
+<aspectj>
+
+    <weaver>
+        <!-- only weave classes in our application-specific packages -->
+        <include within="io.binghe.spring.annotation.chapter28.*"/>
+    </weaver>
+
+    <aspects>
+        <!-- weave in just this aspect -->
+        <aspect name="io.binghe.spring.annotation.chapter28.aspect.EnableLoadTimeWeavingAspect"/>
+    </aspects>
+
+</aspectj>
