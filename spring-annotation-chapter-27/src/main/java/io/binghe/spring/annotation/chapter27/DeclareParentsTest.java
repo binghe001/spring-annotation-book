@@ -18,7 +18,6 @@ package io.binghe.spring.annotation.chapter27;
 import io.binghe.spring.annotation.chapter27.bean.DeclareParentsBean;
 import io.binghe.spring.annotation.chapter27.config.DeclareParentsConfig;
 import io.binghe.spring.annotation.chapter27.service.DeclareParentsService;
-import io.binghe.spring.annotation.chapter27.service.NewDeclareParentsService;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
