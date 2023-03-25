@@ -72,6 +72,7 @@
 * [《Spring核心技术》第26章：深度解析调用通知方法的流程](https://articles.zsxq.com/id_twxhnxik8enc.html)
 * [《Spring核心技术》第27章：深度解析@DeclareParents注解](https://articles.zsxq.com/id_rw597583o4jg.html)
 * [《Spring核心技术》第28章：@EnableLoadTimeWeaving注解](https://articles.zsxq.com/id_hsvnjsdjoci8.html)
+* [《Spring核心技术》第29章：Spring事务概述与编程实战](https://articles.zsxq.com/id_kq76kv1nwzoe.html)
 
 ### 我的新书
 
