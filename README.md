@@ -76,6 +76,7 @@
 * [《Spring核心技术》第30章：深度解析Spring事务三大接口](https://articles.zsxq.com/id_ho2wnitvu0w1.html)
 * [《Spring核心技术》第31章：深度解析Spring事务隔离级别与传播机制](https://articles.zsxq.com/id_27ujpfwf1mh3.html)
 * [《Spring核心技术》第32章：深度解析@EnableTransactionManagement注解](https://articles.zsxq.com/id_8oxd67xgmkdk.html)
+* [《Spring核心技术》第33章：深度解析@Transactional注解](https://articles.zsxq.com/id_ezlz9t1pjks0.html)
 
 ### 我的新书
 
