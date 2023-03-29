@@ -16,9 +16,7 @@
 package io.binghe.spring.annotation.chapter29.service.impl;
 
 import io.binghe.spring.annotation.chapter29.bean.User;
-import io.binghe.spring.annotation.chapter29.bean.UserAddress;
 import io.binghe.spring.annotation.chapter29.dao.UserDao;
-import io.binghe.spring.annotation.chapter29.service.UserAddressService;
 import io.binghe.spring.annotation.chapter29.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -35,12 +33,9 @@ import org.springframework.transaction.annotation.Transactional;
 public class UserServiceImpl implements UserService {
     @Autowired
     private UserDao userDao;
-    @Autowired
-    private UserAddressService userAddressService;
     @Override
     @Transactional(rollbackFor = Exception.class)
     public void saveUser(User user) {
         userDao.saveUser(user);
-        userAddressService.saveUserAddress(new UserAddress(user.getId(), "四川成都"));
     }
 }
