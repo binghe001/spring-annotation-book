@@ -15,32 +15,27 @@
  */
 package io.binghe.spring.annotation.chapter29.service.impl;
 
-import io.binghe.spring.annotation.chapter29.bean.User;
 import io.binghe.spring.annotation.chapter29.bean.UserAddress;
-import io.binghe.spring.annotation.chapter29.dao.UserDao;
+import io.binghe.spring.annotation.chapter29.dao.UserAddressDao;
 import io.binghe.spring.annotation.chapter29.service.UserAddressService;
-import io.binghe.spring.annotation.chapter29.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 /**
  * @author binghe(微信 : hacker_binghe)
  * @version 1.0.0
- * @description 用户Service实现类
+ * @description 用户地址Service实现类
  * @github https://github.com/binghe001
  * @copyright 公众号: 冰河技术
  */
 @Service
-public class UserServiceImpl implements UserService {
+public class UserAddressServiceImpl implements UserAddressService {
     @Autowired
-    private UserDao userDao;
-    @Autowired
-    private UserAddressService userAddressService;
+    private UserAddressDao userAddressDao;
+
     @Override
-    @Transactional(rollbackFor = Exception.class)
-    public void saveUser(User user) {
-        userDao.saveUser(user);
-        userAddressService.saveUserAddress(new UserAddress(user.getId(), "四川成都"));
+    public void saveUserAddress(UserAddress userAddress) {
+        userAddressDao.saveUserAddress(userAddress);
     }
 }
+
