@@ -38,6 +38,6 @@ public class UserServiceImpl implements UserService {
     @Transactional(rollbackFor = Exception.class)
     public void saveUser(User user) {
         userDao.saveUser(user);
-//        int i = 1 / 0;
+        int i = 1 / 0;
     }
 }

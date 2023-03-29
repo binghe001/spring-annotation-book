@@ -78,6 +78,7 @@
 * [《Spring核心技术》第32章：深度解析@EnableTransactionManagement注解](https://articles.zsxq.com/id_8oxd67xgmkdk.html)
 * [《Spring核心技术》第33章：深度解析@Transactional注解](https://articles.zsxq.com/id_ezlz9t1pjks0.html)
 * [《Spring核心技术》第34章：深度解析Spring事务的执行流程](https://articles.zsxq.com/id_8q0nz7rucvjd.html)
+* [《Spring核心技术》第35章：深度解析Spring底层事务传播机制源码](https://articles.zsxq.com/id_6sw4tcdnl0qf.html)
 
 ### 我的新书
 
