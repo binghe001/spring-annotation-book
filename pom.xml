@@ -34,6 +34,7 @@
         <module>spring-annotation-chapter-27</module>
         <module>spring-annotation-chapter-28</module>
         <module>spring-annotation-chapter-29</module>
+        <module>spring-annotation-chapter-36</module>
     </modules>
 
     <properties>
