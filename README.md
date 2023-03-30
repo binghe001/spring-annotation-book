@@ -82,6 +82,7 @@
 * [《Spring核心技术》第36章：深度解析@TransactionEventListener注解](https://articles.zsxq.com/id_6mqzv4xx6n58.html)
 * [《Spring核心技术》第37章：七大场景深度分析Spring事务嵌套最佳实践](https://articles.zsxq.com/id_je5i1cblcqkn.html)
 * [《Spring核心技术》第38章：深度解析Spring事务失效的八大场景](https://articles.zsxq.com/id_z55u4dijij8c.html)
+* [《Spring核心技术》第39章：AOT预编译技术概述](https://articles.zsxq.com/id_p5c7maejbow8.html)
 
 ### 我的新书
 
