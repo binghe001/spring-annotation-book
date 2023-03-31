@@ -5,7 +5,8 @@ target/
 *.zip
 *.tar
 *.tar.gz
-
+*.build_artifacts.txt
+*.exe
 # eclipse ignore
 .settings/
 .project
