@@ -98,6 +98,9 @@
 * [《Spring核心技术》第40章：构建Native Image](https://articles.zsxq.com/id_rh08wot03ls8.html)
 * [《Spring核心技术》第41章：Maven构建Native Image](https://articles.zsxq.com/id_ssa05mm62s0r.html)
 
+#### 作业篇
+[《Spring核心技术》作业：专栏整体作业](https://t.zsxq.com/0cK9NLELB)
+
 ### 我的新书
 
 <div align="center">
