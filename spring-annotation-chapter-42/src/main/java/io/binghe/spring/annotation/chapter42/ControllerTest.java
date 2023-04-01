@@ -27,10 +27,10 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  * @copyright 公众号: 冰河技术
  */
 public class ControllerTest {
-
     public static void main(String[] args) {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(ControllerConfig.class);
         BingheController bingheController = context.getBean(BingheController.class);
         System.out.println(bingheController);
+        context.close();
     }
 }
