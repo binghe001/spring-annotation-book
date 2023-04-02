@@ -13,9 +13,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package io.binghe.spring.annotation.chapter42;
+package io.binghe.spring.annotation.springmvc.starter;
 
-import io.binghe.spring.annotation.springmvc.starter.TomcatStarter;
 import org.apache.catalina.Server;
 import org.apache.catalina.Service;
 import org.apache.catalina.connector.Connector;
@@ -24,12 +23,26 @@ import org.apache.catalina.startup.Tomcat;
 /**
  * @author binghe(微信 : hacker_binghe)
  * @version 1.0.0
- * @description @Controller案例测试类
+ * @description Tomcat启动器
  * @github https://github.com/binghe001
  * @copyright 公众号: 冰河技术
  */
-public class ControllerTest {
-    public static void main(String[] args) {
-        TomcatStarter.start(8888);
+public class TomcatStarter {
+
+    public static void start(int port){
+        try{
+            Tomcat tomcat = new Tomcat();
+            Server server = tomcat.getServer();
+            Service service = server.findService("Tomcat");
+            Connector connector = new Connector();
+            connector.setPort(port);
+            service.addConnector(connector);
+            tomcat.setBaseDir("d:/tomcat");
+            tomcat.addWebapp("/boot","d:/tomcat");
+            tomcat.start();
+            server.await();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
     }
 }

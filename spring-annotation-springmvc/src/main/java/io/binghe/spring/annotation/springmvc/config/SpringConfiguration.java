@@ -13,19 +13,22 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package io.binghe.spring.annotation.chapter42.config;
+package io.binghe.spring.annotation.springmvc.config;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.FilterType;
+import org.springframework.stereotype.Controller;
 
 /**
  * @author binghe(微信 : hacker_binghe)
  * @version 1.0.0
- * @description @Controller案例配置
+ * @description Spring配置类
  * @github https://github.com/binghe001
  * @copyright 公众号: 冰河技术
  */
 @Configuration
-@ComponentScan(value = {"io.binghe.spring.annotation.chapter42"})
-public class ControllerConfig {
+@ComponentScan(value="io.binghe.spring.annotation",
+        excludeFilters = @ComponentScan.Filter(type = FilterType.ANNOTATION,classes = Controller.class))
+public class SpringConfiguration {
 }

@@ -13,25 +13,25 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package io.binghe.spring.annotation.chapter42.controller;
+package io.binghe.spring.annotation.springmvc.config;
 
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.FilterType;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
  * @author binghe(微信 : hacker_binghe)
  * @version 1.0.0
- * @description @Controller注解案例
+ * @description SpringMVC配置类
  * @github https://github.com/binghe001
  * @copyright 公众号: 冰河技术
  */
-@Controller
-public class BingheController {
+@Configuration
+@ComponentScan(value = "io.binghe.spring.annotation", includeFilters = {
+        @ComponentScan.Filter(type = FilterType.ANNOTATION, value = Controller.class)
+}, useDefaultFilters = false)
+public class SpringMvcConfiguration {
 
-    @ResponseBody
-    @RequestMapping(value = "/test")
-    public String test(){
-        return "Hello Spring6";
-    }
+
 }
