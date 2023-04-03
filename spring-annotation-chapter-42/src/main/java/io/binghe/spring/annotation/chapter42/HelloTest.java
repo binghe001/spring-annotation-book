@@ -24,7 +24,7 @@ import io.binghe.spring.annotation.springmvc.starter.TomcatStarter;
  * @github https://github.com/binghe001
  * @copyright 公众号: 冰河技术
  */
-public class ControllerTest {
+public class HelloTest {
     public static void main(String[] args) {
         TomcatStarter.start(8888);
     }
