@@ -13,23 +13,22 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package io.binghe.spring.annotation.springmvc.config;
+package io.binghe.spring.annotation.chapter42.servcie.impl;
 
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.FilterType;
-import org.springframework.stereotype.Controller;
+import io.binghe.spring.annotation.chapter42.servcie.HelloService;
+import org.springframework.stereotype.Service;
 
 /**
  * @author binghe(微信 : hacker_binghe)
  * @version 1.0.0
- * @description SpringMVC配置类
+ * @description Service层实现类
  * @github https://github.com/binghe001
  * @copyright 公众号: 冰河技术
  */
-@Configuration
-@ComponentScan(value = "io.binghe.spring.annotation", includeFilters = {
-        @ComponentScan.Filter(type = FilterType.ANNOTATION, value = Controller.class)
-}, useDefaultFilters = false)
-public class SpringMvcConfiguration {
+@Service
+public class HelloServiceImpl implements HelloService {
+    @Override
+    public String hello(String name) {
+        return "Hello " + name;
+    }
 }

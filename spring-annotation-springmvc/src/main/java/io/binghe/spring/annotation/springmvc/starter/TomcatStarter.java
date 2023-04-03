@@ -38,7 +38,7 @@ public class TomcatStarter {
             connector.setPort(port);
             service.addConnector(connector);
             tomcat.setBaseDir("d:/tomcat");
-            tomcat.addWebapp("/boot","d:/tomcat");
+            tomcat.addWebapp("/","d:/tomcat");
             tomcat.start();
             server.await();
         }catch (Exception e){

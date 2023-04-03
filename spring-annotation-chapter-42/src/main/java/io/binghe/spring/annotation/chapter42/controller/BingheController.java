@@ -15,6 +15,8 @@
  */
 package io.binghe.spring.annotation.chapter42.controller;
 
+import io.binghe.spring.annotation.chapter42.servcie.HelloService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -29,9 +31,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class BingheController {
 
+    @Autowired
+    private HelloService helloService;
     @ResponseBody
-    @RequestMapping(value = "/test")
-    public String test(){
-        return "Hello Spring6";
+    @RequestMapping(value = "/hello")
+    public String hello(){
+        return helloService.hello("Spring6");
     }
 }

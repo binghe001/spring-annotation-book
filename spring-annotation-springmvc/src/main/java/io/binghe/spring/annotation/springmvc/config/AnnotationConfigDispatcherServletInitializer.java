@@ -30,7 +30,7 @@ import java.util.EnumSet;
  * @github https://github.com/binghe001
  * @copyright 公众号: 冰河技术
  */
-public class ServletConfig extends AbstractAnnotationConfigDispatcherServletInitializer {
+public class AnnotationConfigDispatcherServletInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
     @Override
     public void onStartup(jakarta.servlet.ServletContext servletContext) throws ServletException {
         //触发父类的onStartup

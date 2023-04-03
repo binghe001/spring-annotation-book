@@ -16,10 +16,6 @@
 package io.binghe.spring.annotation.chapter42;
 
 import io.binghe.spring.annotation.springmvc.starter.TomcatStarter;
-import org.apache.catalina.Server;
-import org.apache.catalina.Service;
-import org.apache.catalina.connector.Connector;
-import org.apache.catalina.startup.Tomcat;
 
 /**
  * @author binghe(微信 : hacker_binghe)

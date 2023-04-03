@@ -15,35 +15,36 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!--<serlvet.jsp.version>3.0.0</serlvet.jsp.version>-->
+        <servlet.version>5.0.0</servlet.version>
+        <tomcat.version>10.1.7</tomcat.version>
     </properties>
 
     <dependencies>
-        <!--jsp的依赖-->
-        <dependency>
+       <!-- <dependency>
             <groupId>jakarta.servlet.jsp</groupId>
             <artifactId>jakarta.servlet.jsp-api</artifactId>
-            <version>3.0.0</version>
+            <version>${serlvet.jsp.version}</version>
             <scope>provided</scope>
-        </dependency>
+        </dependency>-->
 
-        <!--jar包的依赖-->
         <dependency>
             <groupId>jakarta.servlet</groupId>
             <artifactId>jakarta.servlet-api</artifactId>
-            <version>5.0.0</version>
+            <version>${servlet.version}</version>
             <scope>provided</scope>
         </dependency>
 
         <dependency>
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-core</artifactId>
-            <version>10.1.7</version>
+            <version>${tomcat.version}</version>
         </dependency>
 
         <dependency>
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-jasper</artifactId>
-            <version>10.1.7</version>
+            <version>${tomcat.version}</version>
         </dependency>
     </dependencies>
 </project>
