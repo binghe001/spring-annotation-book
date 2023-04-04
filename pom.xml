@@ -41,6 +41,7 @@
         <module>spring-annotation-chapter-42</module>
         <module>spring-annotation-springmvc</module>
         <module>spring-annotation-chapter-43</module>
+        <module>spring-annotation-chapter-44</module>
     </modules>
 
     <properties>
