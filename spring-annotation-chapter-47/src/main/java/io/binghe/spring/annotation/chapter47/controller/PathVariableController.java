@@ -29,7 +29,6 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class PathVariableController {
-
     @RequestMapping(value = "/user/{id}/{name}")
     public String getUser(@PathVariable("id") String id, @PathVariable("name") String name){
         return new User(id, name).toString();
