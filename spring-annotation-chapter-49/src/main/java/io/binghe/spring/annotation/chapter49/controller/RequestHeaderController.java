@@ -19,6 +19,8 @@ import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Map;
+
 /**
  * @author binghe(微信 : hacker_binghe)
  * @version 1.0.0
@@ -32,5 +34,11 @@ public class RequestHeaderController {
     @RequestMapping(value = "/header")
     public String getHeader(@RequestHeader(value = "header-name") String name){
         return "{\"header-name\" : \"" + name + "\" }";
+    }
+
+
+    @RequestMapping(value = "/header/map")
+    public String getHeaderMap(@RequestHeader Map<String, String> map){
+        return "{\"header-name\" : \"" + map + "\" }";
     }
 }

@@ -25,7 +25,6 @@ import io.binghe.spring.annotation.springmvc.starter.TomcatStarter;
  * @copyright 公众号: 冰河技术
  */
 public class RequestHeaderTest {
-
     public static void main(String[] args) {
         TomcatStarter.start(8888);
     }
