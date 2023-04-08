@@ -30,14 +30,25 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ModelAttributeController {
 
+//    @ModelAttribute(name = "name")
+//    public String initModel(String name){
+//        System.out.println("执行了initModel()方法...");
+//        return name;
+//    }
+
     @ModelAttribute
-    public void initModel(Model model){
+    public void initModel(String name, Model model){
         System.out.println("执行了initModel()方法...");
-        model.addAttribute("name", "binghe");
+        model.addAttribute("name", name);
     }
 
+//    @RequestMapping(value = "/model")
+//    public String getModelAttribute(@ModelAttribute("name") String name, Model model){
+//        return "{\"name\" : \"" +name + "\"}";
+//    }
+
     @RequestMapping(value = "/model")
-    public String getModelAttribute(@ModelAttribute("name") String name, Model model){
-        return "{\"name\" : \"" +name + "\"}";
+    public String getModelAttribute(Model model){
+        return "{\"name\" : \"" + model.getAttribute("name") + "\"}";
     }
 }
