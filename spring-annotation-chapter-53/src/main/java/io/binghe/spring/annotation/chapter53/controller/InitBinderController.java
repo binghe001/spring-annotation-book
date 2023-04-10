@@ -15,6 +15,7 @@
  */
 package io.binghe.spring.annotation.chapter53.controller;
 
+import com.alibaba.fastjson2.JSONObject;
 import org.springframework.format.datetime.DateFormatter;
 import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.InitBinder;
@@ -22,7 +23,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.beans.PropertyEditorSupport;
-import java.text.DateFormat;
 import java.util.Date;
 import java.util.Locale;
 
@@ -38,15 +38,18 @@ public class InitBinderController {
 
     @RequestMapping(value = "/hello")
     public String hello(String name){
-        return "hello " + name;
+        return name;
     }
 
-    @InitBinder
+    @InitBinder(value = "name")
     public void bindData(WebDataBinder binder){
         binder.registerCustomEditor(String.class, new PropertyEditorSupport(){
             @Override
             public void setAsText(String text) throws IllegalArgumentException {
-                setValue(text + " "+ new DateFormatter("yyyy-MM-dd HH:mm:ss").print(new Date(), Locale.CHINA));
+                JSONObject jsonObject = new JSONObject();
+                jsonObject.put("name", text);
+                jsonObject.put("datetime", new DateFormatter("yyyy-MM-dd HH:mm:ss").print(new Date(), Locale.CHINA));
+                setValue(jsonObject.toString());
             }
         });
     }
