@@ -51,6 +51,7 @@
         <module>spring-annotation-chapter-51</module>
         <module>spring-annotation-chapter-52</module>
         <module>spring-annotation-chapter-53</module>
+        <module>spring-annotation-chapter-54</module>
     </modules>
 
     <properties>
