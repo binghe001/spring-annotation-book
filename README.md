@@ -56,7 +56,7 @@
 冰河的知识星球是一个简单、干净、纯粹交流技术的星球，不吹水，目前领券加入享5折优惠，价值远超门票。加入星球的用户，记得添加冰河微信：**hacker_binghe**，冰河拉你进星球专属VIP交流群。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/xingqiu_149.png?raw=true" width="70%">
+    <img src="./images/xingqiu_149.png?raw=true" width="70%">
     <br/>
 </div>
 
